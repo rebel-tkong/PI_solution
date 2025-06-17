@@ -1,0 +1,12 @@
+options:
+  standalone: true
+  onefile: true
+  include-distribution-metadata:
+    - optimum
+    - transformers
+    - torch
+    - rebel
+    - tvm
+  enable-plugin:
+    - numpy
+    - torch
